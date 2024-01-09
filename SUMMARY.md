@@ -16,3 +16,7 @@
 
 * [Spreadsheet](excel/spreadsheet.md)
 * [Worksheet](excel/worksheet.md)
+
+***
+
+* [LICENSE](license.md)
