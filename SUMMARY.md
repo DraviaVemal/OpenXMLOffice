@@ -16,6 +16,7 @@
 
 * [Spreadsheet](excel/spreadsheet.md)
 * [Worksheet](excel/worksheet.md)
+* [Style](excel/style.md)
 
 ***
 
