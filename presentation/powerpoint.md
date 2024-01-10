@@ -64,20 +64,14 @@ public static CreateNew(){
 
 ```csharp
 public class PresentationProperties
-    {
-        #region Public Fields
-
-        public PresentationSettings Settings = new();
-
-        /// <summary>
-        /// TODO : Multi Theme Slide Master Support
-        /// </summary>
-        public Dictionary<string, PresentationSlideMaster>? SlideMasters;
-
-        public ThemePallet Theme = new();
-
-        #endregion Public Fields
-    }
+{
+    public PresentationSettings Settings = new();
+    /// <summary>
+    /// TODO : Multi Theme Slide Master Support
+    /// </summary>
+    public Dictionary<string, PresentationSlideMaster>? SlideMasters;
+    public ThemePallet Theme = new();
+}
 ```
 
 Direct Primary Theme for the presentation is done using ThemePallet
