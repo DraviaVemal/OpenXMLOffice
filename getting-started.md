@@ -15,13 +15,19 @@ Install-Package OpenXMLOffice
 
 <pre class="language-shell"><code class="lang-shell">#Using .NET CLI
 <strong>dotnet add package OpenXMLOffice.Presentation
-</strong><strong># For Pre Release
-</strong>dotnet add package OpenXMLOffice.Presentation --prerelease
-</code></pre>
+</strong></code></pre>
+
+```bash
+# For Pre Release
+dotnet add package OpenXMLOffice.Presentation --prerelease
+```
 
 ```bash
 #Using .NET CLI
 dotnet add package OpenXMLOffice.Excel
+```
+
+```bash
 # For Pre Release
 dotnet add package OpenXMLOffice.Excel--prerelease
 ```
