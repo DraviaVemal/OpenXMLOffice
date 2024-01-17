@@ -44,6 +44,8 @@ The official release NuGet packages for OpenXMLOffice on NuGet.org:
 
 Once Installed the package should be direct use availabel like below example. More samples can be seen in test project of the repo or check other parts of the documents
 
+{% tabs %}
+{% tab title="C#" %}
 ```csharp
 using OpenXMLOffice.Presentation;
 
@@ -53,7 +55,23 @@ public static main(){
     powerPoint.save();
 }
 ```
+{% endtab %}
 
+{% tab title="Go" %}
+Interface Library Publishing in Roadmap
+{% endtab %}
+
+{% tab title="NodeJS" %}
+Interface Library Publishing in Roadmap
+{% endtab %}
+
+{% tab title="Python" %}
+Interface Library Publishing in Roadmap
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="C#" %}
 ```csharp
 using OpenXMLOffice.Excel;
 
@@ -63,3 +81,17 @@ public static main(){
     spreadsheet.save();
 }
 ```
+{% endtab %}
+
+{% tab title="Go" %}
+Interface Library Publishing in Roadmap
+{% endtab %}
+
+{% tab title="NodeJS" %}
+Interface Library Publishing in Roadmap
+{% endtab %}
+
+{% tab title="Python" %}
+Interface Library Publishing in Roadmap
+{% endtab %}
+{% endtabs %}
