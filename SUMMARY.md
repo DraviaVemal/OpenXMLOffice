@@ -2,13 +2,20 @@
 
 * [Introduction](README.md)
 * [Getting Started](getting-started.md)
+* [Page](page.md)
 
 ## Presentation
 
 * [PowerPoint](presentation/powerpoint.md)
 * [Slide](presentation/slide.md)
 * [Shape](presentation/shape.md)
-* [Chart](presentation/chart.md)
+* [Chart](presentation/chart/README.md)
+  * [Area](presentation/chart/area.md)
+  * [Bar](presentation/chart/bar.md)
+  * [Column](presentation/chart/column.md)
+  * [Line](presentation/chart/line.md)
+  * [Pie](presentation/chart/pie.md)
+  * [Scatter](presentation/chart/scatter.md)
 * [Table](presentation/table.md)
 * [Textbox](presentation/textbox.md)
 
