@@ -50,10 +50,10 @@ Interface Library Publishing in Roadmap
 
 ### Package Version Details
 
-The official release NuGet packages for OpenXMLOffice on NuGet.org:
-
 {% tabs %}
 {% tab title="C#" %}
+The official release NuGet packages for OpenXMLOffice on NuGet.org:
+
 | Package                    | Dev Status | Download                                                                                                                             | Prerelease                                                                                                                              |
 | -------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
 | OpenXMLOffice.Presentation | Active     | [![NuGet](https://img.shields.io/nuget/v/OpenXMLOffice.Presentation.svg)](https://www.nuget.org/packages/OpenXMLOffice.Presentation) | [![NuGet](https://img.shields.io/nuget/vpre/OpenXMLOffice.Presentation.svg)](https://www.nuget.org/packages/OpenXMLOffice.Presentation) |

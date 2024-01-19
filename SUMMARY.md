@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [Getting Started](getting-started.md)
-* [Page](page.md)
 
 ## Presentation
 
