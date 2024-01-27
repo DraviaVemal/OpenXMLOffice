@@ -12,6 +12,6 @@ layout:
     visible: true
 ---
 
-# Pie
+# Waterfall
 
-Pie chart settings and examples
+Waterfall chart settings and examples

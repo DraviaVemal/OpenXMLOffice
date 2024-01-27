@@ -14,3 +14,4 @@ layout:
 
 # Area
 
+Area chart settings and examples

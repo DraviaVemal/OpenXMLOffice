@@ -14,3 +14,4 @@ layout:
 
 # Combo
 
+Combo chart settings and examples

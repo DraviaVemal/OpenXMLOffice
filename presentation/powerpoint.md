@@ -60,21 +60,17 @@ public static CreateNew(){
 }
 ```
 
-### PresentationProperties
+### `PresentationProperties` Options
 
-```csharp
-public class PresentationProperties
-{
-    public PresentationSettings Settings = new();
-    /// <summary>
-    /// TODO : Multi Theme Slide Master Support
-    /// </summary>
-    public Dictionary<string, PresentationSlideMaster>? SlideMasters;
-    public ThemePallet Theme = new();
-}
-```
+| Property     | Type                                                               | Details                                  |
+| ------------ | ------------------------------------------------------------------ | ---------------------------------------- |
+| settings     | [PresentationSettings](powerpoint.md#presentationsettings-options) | Provides Presentation setting options    |
+| slideMasters | Dictionary\<string, PresentationSlideMaster>?                      | Multislide master support is in pipeline |
+| theme        | ThemePallet                                                        | Color template for overall presentation  |
 
-Direct Primary Theme for the presentation is done using ThemePallet
+### `PresentationSettings` Options
+
+<table><thead><tr><th width="318">Property</th><th width="85">Type</th><th>Details</th></tr></thead><tbody><tr><td>isMultiSlideMasterPartPresentation</td><td>bool</td><td>Get or Set Multslide master option</td></tr><tr><td>isMultiThemePresentation</td><td>bool</td><td>Get or Set Mult theme option</td></tr></tbody></table>
 
 ### TODO
 
