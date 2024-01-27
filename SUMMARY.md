@@ -15,6 +15,7 @@
   * [Line](presentation/chart/line.md)
   * [Pie](presentation/chart/pie.md)
   * [Scatter](presentation/chart/scatter.md)
+  * [Combo](presentation/chart/combo.md)
 * [Table](presentation/table.md)
 * [Textbox](presentation/textbox.md)
 
