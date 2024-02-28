@@ -18,9 +18,12 @@ Add chart method present in slide component or you can replace the chart using s
 
 ### Basic Code Sample
 
-```csharp
-powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
-	.AddChart(CreateDataCellPayload(), new G.LineChartSetting()
+<pre class="language-csharp"><code class="lang-csharp">// Bare minimum
+owerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
+	.AddChart(CreateDataCellPayload(), new G.LineChartSetting());
+// Some additional samples
+<strong>powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
+</strong>	.AddChart(CreateDataCellPayload(), new G.LineChartSetting()
 	{
 		lineChartSeriesSettings = new(){
 			new(){
@@ -38,7 +41,7 @@ powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
 			}
 		}
 	});
-```
+</code></pre>
 
 ### `LineChartSetting` Options
 

@@ -19,6 +19,10 @@ Add chart method present in slide component or you can replace the chart using s
 ### Basic Code Sample
 
 ```csharp
+// Bare minimum
+powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
+	.AddChart(CreateDataCellPayload(), new G.ColumnChartSetting());
+// Some additional samples
 powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
 	.AddChart(CreateDataCellPayload(), new G.ColumnChartSetting()
 	{

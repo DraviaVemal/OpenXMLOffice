@@ -18,9 +18,12 @@ Add chart method present in slide component or you can replace the chart using s
 
 ### Basic Code Sample
 
-```csharp
+<pre class="language-csharp"><code class="lang-csharp">// Bare minimum
 powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
-	.AddChart(CreateDataCellPayload(), new G.AreaChartSetting()
+	.AddChart(CreateDataCellPayload(), new G.AreaChartSetting());
+<strong>// Some additional samples
+</strong><strong>powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
+</strong>	.AddChart(CreateDataCellPayload(), new G.AreaChartSetting()
 	{
 		areaChartTypes = G.AreaChartTypes.STACKED,
 		chartAxesOptions = new()
@@ -29,7 +32,7 @@ powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
 			verticalFontSize = 25
 		}
 	});
-```
+</code></pre>
 
 ### `AreaChartSetting` Options
 
