@@ -53,11 +53,7 @@ worksheet.SetColumn("A1", new ColumnProperties()
 
 ### `ColumnProperties` Options
 
-| Property | Type    | Details |
-| -------- | ------- | ------- |
-| bestFit  | bool    |         |
-| hidden   | bool    |         |
-| width    | double? |         |
+<table><thead><tr><th width="120">Property</th><th width="107">Type</th><th>Details</th></tr></thead><tbody><tr><td>bestFit</td><td>bool</td><td>Auto bit column width based on content.</td></tr><tr><td>hidden</td><td>bool</td><td>Hide the column</td></tr><tr><td>width</td><td>double?</td><td>Set manual column width.</td></tr></tbody></table>
 
 ### Sheet Row Data and Settings Code Sample
 
@@ -110,8 +106,8 @@ worksheet.SetRow("A1",
 
 ### `DataCell` Options.
 
-<table><thead><tr><th width="137">Property</th><th width="164">Type</th><th>Details</th></tr></thead><tbody><tr><td>cellValue</td><td>string?</td><td>Can be any value or null. Will be parsed based on <code>dataType</code></td></tr><tr><td>dataType</td><td>CellDataType</td><td>Refer to the data type present in <code>cellValue</code> property</td></tr><tr><td>styleSetting</td><td>CellStyleSetting?</td><td><strong>AVOID USING THIS.</strong> Used to set specific cell style. For optimised performance refer <a href="style.md">Style Component</a></td></tr><tr><td>styleId</td><td>uint?</td><td>Insert the style Id returened from <a href="style.md">Style Componenet</a></td></tr></tbody></table>
+<table><thead><tr><th width="137">Property</th><th width="164">Type</th><th>Details</th></tr></thead><tbody><tr><td>cellValue</td><td>string?</td><td>Can be any value or null. Will be parsed based on <code>dataType</code></td></tr><tr><td>dataType</td><td>CellDataType</td><td>Refer to the data type present in <code>cellValue</code> property</td></tr><tr><td>styleSetting</td><td><a href="style.md#cellstylesetting-options">CellStyleSetting</a>?</td><td><strong>AVOID USING THIS.</strong> Used to set specific cell style. For optimised performance refer <a href="style.md">Style Component</a></td></tr><tr><td>styleId</td><td>uint?</td><td>Insert the style Id returened from <a href="style.md">Style Componenet</a></td></tr></tbody></table>
 
 ### `RowProperties` Options
 
-<table><thead><tr><th width="116">Property</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>height</td><td>double?</td><td></td></tr><tr><td>hidden</td><td>bool</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="116">Property</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>height</td><td>double?</td><td>Set row height property</td></tr><tr><td>hidden</td><td>bool</td><td>Hide the row</td></tr></tbody></table>
