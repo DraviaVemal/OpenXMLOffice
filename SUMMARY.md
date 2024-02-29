@@ -8,6 +8,7 @@
 * [PowerPoint](presentation/powerpoint.md)
 * [Slide](presentation/slide.md)
 * [Shape](presentation/shape.md)
+* [Picture](presentation/picture.md)
 * [Chart](presentation/chart/README.md)
   * [Area](presentation/chart/area.md)
   * [Bar](presentation/chart/bar.md)
