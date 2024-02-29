@@ -14,4 +14,47 @@ layout:
 
 # Pie
 
-Pie chart settings and examples
+Add chart method present in slide component or you can replace the chart using shape componenet.
+
+### Basic Code Sample
+
+{% tabs %}
+{% tab title="C#" %}
+```csharp
+// Bare minimum
+powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
+	.AddChart(CreateDataCellPayload(), new G.PieChartSetting());
+// Some additional samples
+powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
+	.AddChart(CreateDataCellPayload(), new G.PieChartSetting()
+	{
+		pieChartTypes = G.PieChartTypes.DOUGHNUT,
+		pieChartDataLabel = new()
+		{
+			dataLabelPosition = G.PieChartDataLabel.DataLabelPositionValues.SHOW,
+			showCategoryName = true,
+			showValue = true,
+			separator = ". "
+		}
+	});
+```
+{% endtab %}
+{% endtabs %}
+
+### `PieChartSetting` Options
+
+Contains options details extended from [`ChartSetting`](./#chartsetting-options) that are specific to pie chart.
+
+<table><thead><tr><th width="238">Property</th><th width="262">Type</th><th>Details</th></tr></thead><tbody><tr><td>pieChartDataLabel</td><td><a href="pie.md#piechartdatalabel-options">PieChartDataLabel</a></td><td></td></tr><tr><td>pieChartSeriesSettings</td><td>List&#x3C;<a href="pie.md#piechartseriessetting-options">PieChartSeriesSetting</a>?></td><td></td></tr><tr><td>pieChartTypes</td><td>PieChartTypes</td><td></td></tr><tr><td>doughnutHoleSize</td><td>uint</td><td></td></tr><tr><td>angleOfFirstSlice</td><td>uint</td><td></td></tr><tr><td>pointExplosion</td><td>uint</td><td></td></tr></tbody></table>
+
+### `PieChartDataLabel` Options
+
+Contains options details extended from [`ChartDataLabel`](./#chartdatalabel-options) that are specific to pie chart.
+
+<table><thead><tr><th width="194">Property</th><th width="220">Type</th><th>Details</th></tr></thead><tbody><tr><td>dataLabelPosition</td><td>DataLabelPositionValues</td><td></td></tr></tbody></table>
+
+### `PieChartSeriesSetting` Options
+
+Contains options details extended from [`ChartSeriesSetting`](./#chartseriessetting-options) that are specific to pie chart.
+
+<table><thead><tr><th width="206">Property</th><th width="188">Type</th><th>Details</th></tr></thead><tbody><tr><td>pieChartDataLabel</td><td><a href="pie.md#piechartdatalabel-options">PieChartDataLabel</a></td><td></td></tr><tr><td>fillColor</td><td>string?</td><td></td></tr><tr><td>borderColor</td><td>string?</td><td></td></tr><tr><td>pieChartDataPointSettings</td><td>List&#x3C;PieChartDataPointSetting?></td><td>TODO</td></tr></tbody></table>

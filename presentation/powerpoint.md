@@ -20,6 +20,8 @@ The `Powerpoint` class, a core component of the `OpenXMLOffice.Presentation` lib
 
 Create or open a pptx file from path
 
+{% tabs %}
+{% tab title="C#" %}
 ```csharp
 public static CreateNew(){
     PowerPoint powerPoint = new(string.Format("../../test-{0}.pptx", DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss")), null);
@@ -31,18 +33,26 @@ public static OpenExisting(){
     powerPoint.SaveAs("/NewPath/file.pptx");
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 Create or open a pptx object using a stream
 
+{% tabs %}
+{% tab title="C#" %}
 ```csharp
 public static CreateUsingStream(Stream stream){
     PowerPoint powerPoint = new(stream, null);
     powerPoint.Save();
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 Sample using most of the exposed functions
 
+{% tabs %}
+{% tab title="C#" %}
 ```csharp
 public static CreateNew(){
     PowerPoint powerPoint = new(string.Format("../../test-{0}.pptx", DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss")), null);
@@ -59,6 +69,8 @@ public static CreateNew(){
     powerPoint.Save();
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 ### `PresentationProperties` Options
 

@@ -16,6 +16,8 @@ layout:
 
 Textbox Control to add and update Text Box
 
+{% tabs %}
+{% tab title="C#" %}
 ```csharp
 shapes3[0].ReplaceTextBox(new TextBox(new G.TextBoxSetting()
 			{
@@ -25,6 +27,8 @@ shapes3[0].ReplaceTextBox(new TextBox(new G.TextBoxSetting()
 				textColor = "AAAAAA"
 			}));
 ```
+{% endtab %}
+{% endtabs %}
 
 ### `TextBoxSetting` Options
 

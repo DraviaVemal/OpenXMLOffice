@@ -18,6 +18,8 @@ Add chart method present in slide component or you can replace the chart using s
 
 ### Basic Code Sample
 
+{% tabs %}
+{% tab title="C#" %}
 ```csharp
 // Bare minimum
 powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
@@ -55,6 +57,8 @@ powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
 		}
 	});
 ```
+{% endtab %}
+{% endtabs %}
 
 ### `ColumnChartSetting` Options
 
@@ -74,10 +78,7 @@ Contains options details extended from [`ChartDataLabel`](./#chartdatalabel-opti
 
 Contains options details extended from [`ChartSeriesSetting`](./#chartseriessetting-options) that are specific to column chart.
 
-|                      |                                                                |   |
-| -------------------- | -------------------------------------------------------------- | - |
-| columnChartDataLabel | [ColumnChartDataLabel](column.md#columnchartdatalabel-options) |   |
-| fillColor            | string?                                                        |   |
+<table><thead><tr><th width="281"></th><th width="311"></th><th></th></tr></thead><tbody><tr><td>columnChartDataLabel</td><td><a href="column.md#columnchartdatalabel-options">ColumnChartDataLabel</a></td><td></td></tr><tr><td>fillColor</td><td>string?</td><td></td></tr><tr><td>columnChartDataPointSettings</td><td>List&#x3C;<a href="column.md#columnchartdatapointsetting-options">ColumnChartDataPointSetting</a>?></td><td></td></tr></tbody></table>
 
 ### `ColumnGraphicsSetting` Options
 
@@ -85,3 +86,7 @@ Contains options details extended from [`ChartSeriesSetting`](./#chartseriessett
 | ----------- | ---- | ------- |
 | categoryGap | int  |         |
 | seriesGap   | int  |         |
+
+### `ColumnChartDataPointSetting` Options
+
+Contains options details extended from [`ChartDataPointSetting`](./#chartdatapointsettings-options) that are specific to column chart.

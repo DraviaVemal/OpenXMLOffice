@@ -18,8 +18,10 @@ Add chart method present in slide component or you can replace the chart using s
 
 ### Basic Code Sample
 
-<pre class="language-csharp"><code class="lang-csharp">// Bare minimum
-owerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
+{% tabs %}
+{% tab title="C#" %}
+<pre class="language-csharp"><code class="lang-csharp"><strong>// Bare minimum
+</strong>owerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
 	.AddChart(CreateDataCellPayload(), new G.LineChartSetting());
 // Some additional samples
 <strong>powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
@@ -42,6 +44,8 @@ owerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
 		}
 	});
 </code></pre>
+{% endtab %}
+{% endtabs %}
 
 ### `LineChartSetting` Options
 
@@ -61,7 +65,8 @@ Contains options details extended from [`ChartDataLabel`](./#chartdatalabel-opti
 
 Contains options details extended from [`ChartSeriesSetting`](./#chartseriessetting-options) that are specific to column chart.
 
-|                    |                                                          |   |
-| ------------------ | -------------------------------------------------------- | - |
-| lineChartDataLabel | [LineChartDataLabel](line.md#linechartdatalabel-options) |   |
-| fillColor          | string?                                                  |   |
+<table><thead><tr><th width="258">Property</th><th width="292">Type</th><th>Details</th></tr></thead><tbody><tr><td>lineChartDataLabel</td><td><a href="line.md#linechartdatalabel-options">LineChartDataLabel</a></td><td></td></tr><tr><td>lineChartLineFormat</td><td><a href="line.md#linechartlineformat-options">LineChartLineFormat</a></td><td></td></tr><tr><td>lineChartDataPointSettings</td><td>List&#x3C;LineChartDataPointSetting?></td><td>TODO</td></tr></tbody></table>
+
+### `LineChartLineFormat` Options
+
+<table><thead><tr><th width="213">Property</th><th width="270">Type</th><th>Details</th></tr></thead><tbody><tr><td>transparency</td><td>int?</td><td></td></tr><tr><td>width</td><td>int?</td><td></td></tr><tr><td>outlineCapTypeValues</td><td>OutlineCapTypeValues?</td><td></td></tr><tr><td>outlineLineTypeValues</td><td>OutlineLineTypeValues?</td><td></td></tr><tr><td>beginArrowValues</td><td>DrawingBeginArrowValues?</td><td></td></tr><tr><td>endArrowValues</td><td>DrawingEndArrowValues?</td><td></td></tr><tr><td>dashType</td><td>DrawingPresetLineDashValues?</td><td></td></tr><tr><td>lineStartWidth</td><td>LineWidthValues?</td><td></td></tr><tr><td>lineEndWidth</td><td>LineWidthValues?</td><td></td></tr></tbody></table>

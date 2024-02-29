@@ -18,6 +18,8 @@ Add chart method present in slide component or you can replace the chart using s
 
 ### Basic Code Sample
 
+{% tabs %}
+{% tab title="C#" %}
 ```csharp
 // Bare minimum
 powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
@@ -46,6 +48,8 @@ powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
 		}
 	});
 ```
+{% endtab %}
+{% endtabs %}
 
 ### `BarChartSetting` Options
 
@@ -65,10 +69,7 @@ Contains options details extended from [`ChartDataLabel`](./#chartdatalabel-opti
 
 Contains options details extended from [`ChartSeriesSetting`](./#chartseriessetting-options) that are specific to bar chart.
 
-|                   |                                                       |   |
-| ----------------- | ----------------------------------------------------- | - |
-| barChartDataLabel | [BarChartDataLabel](bar.md#barchartdatalabel-options) |   |
-| fillColor         | string?                                               |   |
+<table><thead><tr><th width="255"></th><th width="285"></th><th></th></tr></thead><tbody><tr><td>barChartDataLabel</td><td><a href="bar.md#barchartdatalabel-options">BarChartDataLabel</a></td><td></td></tr><tr><td>fillColor</td><td>string?</td><td></td></tr><tr><td>barChartDataPointSettings</td><td>List&#x3C;<a href="bar.md#barchartdatapointsetting-options">BarChartDataPointSetting</a>?></td><td></td></tr></tbody></table>
 
 ### `BarGraphicsSetting` Options
 
@@ -76,3 +77,7 @@ Contains options details extended from [`ChartSeriesSetting`](./#chartseriessett
 | ----------- | ---- | ------- |
 | categoryGap | int  |         |
 | seriesGap   | int  |         |
+
+### `BarChartDataPointSetting` Options
+
+Contains options details extended from [`ChartDataPointSetting`](./#chartdatapointsettings-options) that are specific to bar chart.

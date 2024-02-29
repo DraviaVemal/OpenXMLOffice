@@ -81,6 +81,8 @@ The `Chart` class, a versatile component within the `OpenXMLOffice.Presentation`
 
 &#x20;For each chart family `ChartSetting` have its releavent options and settings for customization.
 
+{% tabs %}
+{% tab title="C#" %}
 ```csharp
 public void ChartSample(PowerPoint powerPoint)
 {
@@ -103,10 +105,12 @@ public void ChartSample(PowerPoint powerPoint)
             })
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 ### `ChartSetting` Options
 
-<table><thead><tr><th width="218">Property</th><th width="212">Type</th><th>Details</th></tr></thead><tbody><tr><td>chartDataSetting</td><td><a href="./#chartdatasetting-options">ChartDataSetting</a></td><td>This setting enables users to customize both the input chart data range and value from cell labels with precision.</td></tr><tr><td>chartGridLinesOptions</td><td><a href="./#chartgridlinesoptions-options">ChartGridLinesOptions</a></td><td>This feature offers crisp options for users to finely customize the gridline settings of the chart.</td></tr><tr><td>chartLegendOptions</td><td><a href="./#chartlegendoptions-options">ChartLegendOptions</a></td><td>This feature offers crisp options for users to finely customize the gridline settings of the chart.</td></tr><tr><td>height</td><td>uint</td><td>This parameter precisely determines the height of the entire chart.<br>Default : 6858000</td></tr><tr><td>width</td><td>uint</td><td>This parameter precisely determines the width of the entire chart.<br>Default : 12192000</td></tr><tr><td>x</td><td>uint</td><td>This parameter precisely determines the X position of the entire chart.<br>Default: 0</td></tr><tr><td>y</td><td>uint</td><td>This parameter precisely determines the Y position of the entire chart.<br>Default : 0</td></tr></tbody></table>
+<table><thead><tr><th width="218">Property</th><th width="205">Type</th><th>Details</th></tr></thead><tbody><tr><td>chartDataSetting</td><td><a href="./#chartdatasetting-options">ChartDataSetting</a></td><td>This setting enables users to customize both the input chart data range and value from cell labels with precision.</td></tr><tr><td>chartGridLinesOptions</td><td><a href="./#chartgridlinesoptions-options">ChartGridLinesOptions</a></td><td>This feature offers crisp options for users to finely customize the gridline settings of the chart.</td></tr><tr><td>chartLegendOptions</td><td><a href="./#chartlegendoptions-options">ChartLegendOptions</a></td><td>This feature offers crisp options for users to finely customize the gridline settings of the chart.</td></tr><tr><td>height</td><td>uint</td><td>This parameter precisely determines the height of the entire chart.<br>Default : 6858000</td></tr><tr><td>width</td><td>uint</td><td>This parameter precisely determines the width of the entire chart.<br>Default : 12192000</td></tr><tr><td>x</td><td>uint</td><td>This parameter precisely determines the X position of the entire chart.<br>Default: 0</td></tr><tr><td>y</td><td>uint</td><td>This parameter precisely determines the Y position of the entire chart.<br>Default : 0</td></tr></tbody></table>
 
 ### `ChartDataSetting` Options
 
@@ -136,10 +140,19 @@ This is base data label class extended by each chart type to give more specific/
 | ----------- | ------- | ------- |
 | borderColor | string? |         |
 
+### `ChartDataPointSettings` Options
+
+| Property    | Type    | Details |
+| ----------- | ------- | ------- |
+| fillColor   | string? |         |
+| borderColor | string? |         |
+
 ### Embedded Excel Component
 
 Embedded excel can be accessed using `GetChartWorkBook` return OpenXMLOffice.Excel Worksheet. Refer [Worksheet](../../excel/worksheet.md) section for more details
 
+{% tabs %}
+{% tab title="C#" %}
 ```csharp
 Chart chart = powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
 				.AddChart(CreateDataCellPayload(), new G.LineChartSetting());
@@ -151,3 +164,5 @@ new() {
   }
 }, new());
 ```
+{% endtab %}
+{% endtabs %}

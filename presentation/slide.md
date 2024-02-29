@@ -25,6 +25,8 @@ The `Slide` class, a vital component of the `OpenXMLOffice.Presentation` library
 
 #### Example Usage
 
+{% tabs %}
+{% tab title="C#" %}
 <pre class="language-csharp"><code class="lang-csharp">using OpenXMLOffice.Presentation;
 
 public static SlideManipulation(Slide slide, DataCell[][] DataCells, AreaChartSetting AreaChartSetting){
@@ -39,6 +41,8 @@ public static SlideManipulation(Slide slide, DataCell[][] DataCells, AreaChartSe
 </strong><strong>    Shape shape = slide.FindShapeByText("shape_id");
 </strong><strong>}
 </strong></code></pre>
+{% endtab %}
+{% endtabs %}
 
 ### TODO
 

@@ -6,6 +6,8 @@ description: >-
 
 # Getting Started
 
+## Feel free to start discussion for any new feature requirement. [Discussion Channel](https://github.com/DraviaVemal/OpenXMLOffice/discussions)
+
 {% tabs %}
 {% tab title="C#" %}
 The library is available on NuGet. You can install it using the following command
@@ -34,18 +36,6 @@ dotnet add package OpenXMLOffice.Excel
 dotnet add package OpenXMLOffice.Excel--prerelease
 ```
 {% endtab %}
-
-{% tab title="Go" %}
-Interface Library Publishing in Roadmap
-{% endtab %}
-
-{% tab title="NodeJS" %}
-Interface Library Publishing in Roadmap
-{% endtab %}
-
-{% tab title="Python" %}
-Interface Library Publishing in Roadmap
-{% endtab %}
 {% endtabs %}
 
 ### Package Version Details
@@ -59,18 +49,6 @@ The official release NuGet packages for OpenXMLOffice on NuGet.org:
 | OpenXMLOffice.Presentation | Active     | [![NuGet](https://img.shields.io/nuget/v/OpenXMLOffice.Presentation.svg)](https://www.nuget.org/packages/OpenXMLOffice.Presentation) | [![NuGet](https://img.shields.io/nuget/vpre/OpenXMLOffice.Presentation.svg)](https://www.nuget.org/packages/OpenXMLOffice.Presentation) |
 | OpenXMLOffice.Excel        | Active     | [![NuGet](https://img.shields.io/nuget/v/OpenXMLOffice.Excel.svg)](https://www.nuget.org/packages/OpenXMLOffice.Excel)               | [![NuGet](https://img.shields.io/nuget/vpre/OpenXMLOffice.Excel.svg)](https://www.nuget.org/packages/OpenXMLOffice.Excel)               |
 | OpenXMLOffice.Document     | Not Active | [![NuGet](https://img.shields.io/nuget/v/OpenXMLOffice.Document.svg)](https://www.nuget.org/packages/OpenXMLOffice.Document)         | [![NuGet](https://img.shields.io/nuget/vpre/OpenXMLOffice.Document.svg)](https://www.nuget.org/packages/OpenXMLOffice.Document)         |
-{% endtab %}
-
-{% tab title="Go" %}
-Interface Library Publishing in Roadmap
-{% endtab %}
-
-{% tab title="NodeJS" %}
-Interface Library Publishing in Roadmap
-{% endtab %}
-
-{% tab title="Python" %}
-Interface Library Publishing in Roadmap
 {% endtab %}
 {% endtabs %}
 
@@ -88,18 +66,6 @@ public static main(){
 }
 ```
 {% endtab %}
-
-{% tab title="Go" %}
-Interface Library Publishing in Roadmap
-{% endtab %}
-
-{% tab title="NodeJS" %}
-Interface Library Publishing in Roadmap
-{% endtab %}
-
-{% tab title="Python" %}
-Interface Library Publishing in Roadmap
-{% endtab %}
 {% endtabs %}
 
 {% tabs %}
@@ -113,17 +79,5 @@ public static main(){
     spreadsheet.save();
 }
 ```
-{% endtab %}
-
-{% tab title="Go" %}
-Interface Library Publishing in Roadmap
-{% endtab %}
-
-{% tab title="NodeJS" %}
-Interface Library Publishing in Roadmap
-{% endtab %}
-
-{% tab title="Python" %}
-Interface Library Publishing in Roadmap
 {% endtab %}
 {% endtabs %}

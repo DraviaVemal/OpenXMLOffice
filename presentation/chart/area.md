@@ -18,6 +18,8 @@ Add chart method present in slide component or you can replace the chart using s
 
 ### Basic Code Sample
 
+{% tabs %}
+{% tab title="C#" %}
 <pre class="language-csharp"><code class="lang-csharp">// Bare minimum
 powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
 	.AddChart(CreateDataCellPayload(), new G.AreaChartSetting());
@@ -33,6 +35,8 @@ powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
 		}
 	});
 </code></pre>
+{% endtab %}
+{% endtabs %}
 
 ### `AreaChartSetting` Options
 
@@ -44,15 +48,10 @@ Contains options details extended from [`ChartSetting`](./#chartsetting-options)
 
 Contains options details extended from [`ChartDataLabel`](./#chartdatalabel-options) that are specific to area chart.
 
-| Property          | Type                    | Details |
-| ----------------- | ----------------------- | ------- |
-| dataLabelPosition | DataLabelPositionValues |         |
+<table><thead><tr><th width="194">Property</th><th width="220">Type</th><th>Details</th></tr></thead><tbody><tr><td>dataLabelPosition</td><td>DataLabelPositionValues</td><td></td></tr></tbody></table>
 
 ### `AreaChartSeriesSetting` Options
 
 Contains options details extended from [`ChartSeriesSetting`](./#chartseriessetting-options) that are specific to area chart.
 
-|                    |                                                          |   |
-| ------------------ | -------------------------------------------------------- | - |
-| areaChartDataLabel | [AreaChartDataLabel](area.md#areachartdatalabel-options) |   |
-| fillColor          | string?                                                  |   |
+<table><thead><tr><th width="206"></th><th width="188"></th><th></th></tr></thead><tbody><tr><td>areaChartDataLabel</td><td><a href="area.md#areachartdatalabel-options">AreaChartDataLabel</a></td><td></td></tr><tr><td>fillColor</td><td>string?</td><td></td></tr></tbody></table>

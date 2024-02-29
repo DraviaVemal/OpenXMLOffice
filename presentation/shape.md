@@ -25,6 +25,8 @@ The `Shape` class, an essential component of the `OpenXMLOffice.Presentation` li
 
 #### Example Usage
 
+{% tabs %}
+{% tab title="C#" %}
 ```csharp
 using OpenXMLOffice.Presentation;
 
@@ -41,3 +43,5 @@ public static ShapeManipulation(Shape shape,Chart chart,Table table, TextBox tex
     share.RemoveShape();
 }
 ```
+{% endtab %}
+{% endtabs %}

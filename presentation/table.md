@@ -18,6 +18,8 @@ The `Table` class, a dynamic feature within the `OpenXMLOffice.Presentation` lib
 
 ### Basic Code Sample
 
+{% tabs %}
+{% tab title="C#" %}
 ```csharp
 Slide slide = powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK);
 slide.AddTable(CreateTableRowPayload(10), new TableSetting()
@@ -29,6 +31,8 @@ slide.AddTable(CreateTableRowPayload(10), new TableSetting()
 	y = (uint)G.ConverterUtils.PixelsToEmu(10)
 });
 ```
+{% endtab %}
+{% endtabs %}
 
 ### `TableSetting` Options
 
