@@ -38,16 +38,16 @@ powerPoint.AddSlide(PresentationConstants.SlideLayoutType.BLANK)
 
 Contains options details extended from [`ChartSetting`](./#chartsetting-options) that are specific to scatter chart.
 
-<table><thead><tr><th width="250">Property</th><th width="287">Type</th><th>Details</th></tr></thead><tbody><tr><td>scatterChartDataLabel</td><td><a href="scatter.md#scatterchartdatalabel-options">ScatterChartDataLabel</a></td><td></td></tr><tr><td>scatterChartSeriesSettings</td><td>List&#x3C;<a href="scatter.md#scatterchartseriessetting-options">ScatterChartSeriesSetting</a>?></td><td></td></tr><tr><td>scatterChartTypes</td><td>ScatterChartTypes</td><td></td></tr><tr><td>chartAxesOptions</td><td>ChartAxesOptions</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="251">Property</th><th width="287">Type</th><th>Details</th></tr></thead><tbody><tr><td>scatterChartDataLabel</td><td><a href="scatter.md#scatterchartdatalabel-options">ScatterChartDataLabel</a></td><td>General Data label option applied for all series</td></tr><tr><td>scatterChartSeriesSettings</td><td>List&#x3C;<a href="scatter.md#scatterchartseriessetting-options">ScatterChartSeriesSetting</a>?></td><td>Data Series specific options are used from the list. The position on the list is matched with the data series position. you can use null to skip a series</td></tr><tr><td>scatterChartTypes</td><td>ScatterChartTypes</td><td>Type of chart</td></tr><tr><td>chartAxesOptions</td><td><a href="./#chartaxesoptions-options">ChartAxesOptions</a></td><td>Chart axes options</td></tr></tbody></table>
 
 ### `ScatterChartDataLabel` Options
 
 Contains options details extended from [`ChartDataLabel`](./#chartdatalabel-options) that are specific to scatter chart.
 
-<table><thead><tr><th width="194">Property</th><th width="220">Type</th><th>Details</th></tr></thead><tbody><tr><td>dataLabelPosition</td><td>DataLabelPositionValues</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="194">Property</th><th width="220">Type</th><th>Details</th></tr></thead><tbody><tr><td>dataLabelPosition</td><td>DataLabelPositionValues</td><td>Data Label placement options.</td></tr></tbody></table>
 
 ### `ScatterChartSeriesSetting` Options
 
 Contains options details extended from [`ChartSeriesSetting`](./#chartseriessetting-options) that are specific to scatter chart.
 
-<table><thead><tr><th width="226">Property</th><th width="209">Type</th><th>Details</th></tr></thead><tbody><tr><td>ScatterChartDataLabel</td><td><a href="scatter.md#scatterchartdatalabel-options">ScatterChartDataLabel</a></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="226">Property</th><th width="209">Type</th><th>Details</th></tr></thead><tbody><tr><td>ScatterChartDataLabel</td><td><a href="scatter.md#scatterchartdatalabel-options">ScatterChartDataLabel</a></td><td>Data Label Option specific to one series</td></tr></tbody></table>
